@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"],
+      "responses": ["Hi there!", "Hello!", "Hey!", "Greetings! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "farewell"],
+      "responses": ["Goodbye!", "See you soon!", "Farewell! Have a great day!"]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["thanks", "thank you", "appreciate it", "cheers"],
+      "responses": ["You're welcome!", "Anytime!", "No problem!", "Glad to help!"]
+    },
+    {
+      "tag": "faq_identity",
+      "patterns": ["what is your name", "who are you", "what are you"],
+      "responses": ["I'm a smart chatbot designed to assist you.", "I am your virtual assistant.", "You can call me ChatBot!"]
+    },
+    {
+      "tag": "faq_eating",
+      "patterns": ["what do you want to eat", "do you eat"],
+      "responses": ["I don't eat. I'm a bot!", "As a bot, I don't need to eat.", "I consume data, not food!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "got any jokes"],
+      "responses": ["Why don’t scientists trust atoms? They make up everything!", "What do you call a fish with no eyes? Fsh!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+    },
+    {
+      "tag": "Get Weather",
+      "patterns": ["what's the weather in {{city}}", "weather in {{city}}", "how's the weather in {{city}}", "current weather in {{city}}", "tell me the weather for {{city}}"],
+      "responses": []
+    },
+    {
+      "tag": "Country Info",
+      "patterns": ["tell me about {{country}}", "what is {{country}}", "info on {{country}}", "details about {{country}}"],
+      "responses": []
+    },
+    {
+      "tag": "GetProductInfo",
+      "patterns": ["tell me about {{product_name}}", "what is {{product_name}}", "info on {{product_name}}", "details about {{product_name}}", "price of {{product_name}}", "stock of {{product_name}}", "show me {{product_name}}"],
+      "responses": []
+    },
+    {
+      "tag": "search_brand",
+      "patterns": ["show me products by {{brand}}", "search for {{brand}} products", "what {{brand}} items do you have", "products from {{brand}}"],
+      "responses": []
+    },
+    {
+      "tag": "search_category",
+      "patterns": ["show me {{category}} products", "search for {{category}} items", "what {{category}} do you have", "products in {{category}}"],
+      "responses": []
+    },
+    {
+      "tag": "website_open",
+      "patterns": ["open {{site_name}}", "go to {{site_name}}", "browse {{site_name}}", "launch {{site_name}}"],
+      "responses": []
+    },
+    {
+      "tag": "unknown_intent",
+      "patterns": [],
+      "responses": ["I'm not sure how to respond to that.", "Could you please rephrase that?", "I'm still learning. Can you try asking something else?", "I don't understand that query. You can ask me about weather, products, or general things."]
+    }
+  ]
+}
